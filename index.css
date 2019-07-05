@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+}
+
+.box-container{
+    width: 200px;
+    height: 100px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px 2px rgba(189, 189, 189, 0.466);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-title{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-meter{
+    width: 70%;
+    height: 20px;
+    text-align: center;   
+    border-radius: 10px;
+    padding: 0.5px; 
+    background-color:rgb(219, 217, 217); 
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+}
+
+.box-progress-html {
+    width: 50%;   
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 3px;
+    background-color: rgb(255, 138, 5);
+
+}
+.box-progress-css {
+    width: 40%;   
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 3px;
+    background-color: rgb(1, 143, 209);
+
+}
+.box-progress-js {
+    width: 70%;   
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 3px;
+    background: -webkit-linear-gradient(0deg, yellow 30%, rgb(72, 255, 0) 70%);
+    
+
+}
+.box-progress-sql {
+    width: 70%;   
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 3px;
+    background-color: rgb(1, 209, 192);
+
+}
+
+.box-title:hover{
+    opacity: 0;
+    animation: aparecer;
+    animation-duration: 1s;
+}
+
+.diplo{
+    width: 19%;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
