@@ -4,45 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Code+Pro&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="public/FA.png" type="image/x-icon">
     <title>Fernando Azuaje</title>
     
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
-                <img src="public/FA.png" alt="Logo de Fernando Azuaje" width="80px">
-                <h1>Fernando Azuaje</h1>
+            <figure class="logo">
+                <img src="public/Logo.png" alt="Logo de Fernando Azuaje" width="300px">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="">Portafolio</a>
+                        <a class="link" href="#habilidades">Habilidades</a>
                     </li>
                     
                     <li>
-                        <a href="">Habilidades</a>
+                        <a class="link" href="#formacion">Formacion</a>
                     </li>
     
                     <li>
-                        <a href="">Contacto</a>
+                        <a class="link" href="#contacto">Contacto</a>
                     </li>
                 </ol>
             </nav>
             
         </div>
     </header>
-    <section>
-        <p>
-            <strong>
-                Hola! Me Llamo <strong> Fernando Azuaje </strong> <br> Soy Sesarrollador Web <br> Especializado En Tecnologias <br> De <strong> Javascript y Backend </strong>
-            </strong>
-        </p>        
+    <section class="hero">
+        <h1>
+            Hola! Me Llamo <strong> Fernando Azuaje </strong> <br> Soy Sesarrollador Web <br> Especializado En Tecnologias <br> De <strong> Javascript y Backend </strong>
+        </h1>
+          
         <img src="public/hero.png" alt="imagen principal" width="500px"> 
     </section>    
-    <section>
+    <section id="habilidades">
         <h2>
             Habilidades
         </h2>
@@ -86,7 +85,7 @@
     </section>
 
 
-    <section>
+    <section id="formacion">
         <h2>
             Formacion
         </h2>
@@ -133,7 +132,8 @@
         
 
     </section>
-    <section>
+    <section id="contacto" class="contac">
+        <h2>Trabajemos Juntos</h2>
         <form action="">
             <input type="text" placeholder="Email">
             <input type="text" placeholder="Nombre">
@@ -141,7 +141,7 @@
             <input type="submit" value="Enviar">
         </form>
     </section>
-    <footer>Seccion contacto</footer>
+    <footer class="footer">Seccion footer</footer>
 
     
 </body>

@@ -1,5 +1,22 @@
 body{
-    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+.header{
+    background-color: #202020;
+    height: 200px;
+    margin: 0px;
+}
+
+.logo{
+    margin-top: 0px;    
 }
 
 .box-container{
