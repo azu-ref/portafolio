@@ -2,6 +2,8 @@ body{
     font-family: 'Source Code Pro', monospace;
     padding: 0px;
     margin: 0px;
+    /* background-color: #cecece; */
+    background-color: #f3f6f6;
 }
 
 h1,
@@ -9,23 +11,121 @@ h2,
 h3{
     font-family: 'Fjalla One', sans-serif;
 }
+
+h2{
+    color: #a6a3a3;
+}
+
+h3{
+    color: #a6a3a3;;
+}
+
+h1{
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: #a6a3a3;
+    margin: 0 80px;
+}
+
+h1 strong{
+    color: rgb(95, 95, 247);
+}
+
 .header{
     background-color: #202020;
-    height: 200px;
+    height: 100px;
     margin: 0px;
+    /* margin-bottom: 20px; */
+    box-shadow: 2px 2px 14px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: inherit;
+}
+
+.header ul li{
+    height: inherit;
+    
+}
+
+.header a{
+    color: #a6a3a3;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
 }
 
 .logo{
-    margin-top: 0px;    
+    margin: 0px;    
+}
+
+.hero{
+    height: 300px;
+    background-image: url('./public/hero.png');
+    background-color: #202020;
+    box-shadow: 2px 2px 14px black;
+    background-size: 700px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center
+}
+
+.title{
+    background: #202020;
+    /* box-shadow: 2px 2px 14px black; */
+    height: 70px;
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.title h2{
+    font-size: 35px;
+    margin: 0 80px;
+}
+
+.habilities-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
+}
+
+.habilities-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
 }
 
 .box-container{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
     border: 1px solid gray;
+    background: white;
     box-shadow: 2px 2px 2px 2px rgba(189, 189, 189, 0.466);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     position: relative;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,11 +136,12 @@ h3{
     height: 100%;
     position: absolute;
     background-color: white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 .box-meter{
@@ -64,7 +165,7 @@ h3{
 
 }
 .box-progress-css {
-    width: 40%;   
+    width: 50%;   
     height: 15px;
     border-radius: 10px;
     margin-left: 3px;
@@ -95,8 +196,91 @@ h3{
     animation-duration: 1s;
 }
 
+.uni-container{
+    display: flex;
+    justify-content: center;
+}
+
+section h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box-universidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+    background: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* .online{
+    height: 300;
+    background: white;
+    border: 1px solid white;
+} */
+
+.box-platzi{
+    display: flex;
+    justify-content: center;
+}
+
+.carreras-platzi{
+    display: flex;
+    justify-content: center;
+}
+
+.box-platzi img{
+    margin-top: 10px;
+}
+
+.carrera-js{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    /* border-radius: 10px; */
+    /* background: #fcfa88fa; */
+    color: #a6a3a3;
+    background: #202020;
+    width: 500px;
+    height: 220px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.carrera-sql{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* border-radius: 10px;
+    background: #fcfa88fa; */
+    color: #a6a3a3;
+    background: #202020;
+    height: 220px;
+    width: 500px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 .diplo{
     width: 19%;
+}
+
+.footer{
+    height: 30px;
+    background: #202020;
+    color: #a6a6a6;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer p{
+    margin: 0;
+    
 }
 
 @keyframes aparecer{

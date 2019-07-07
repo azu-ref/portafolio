@@ -12,12 +12,11 @@
 </head>
 <body>
     <header class="header">
-        <div>
             <figure class="logo">
-                <img src="public/Logo.png" alt="Logo de Fernando Azuaje" width="300px">
+                <img src="public/Logo.png" alt="Logo de Fernando Azuaje" width="250px">
             </figure>
             <nav class="menu">
-                <ol>
+                <ul>
                     <li>
                         <a class="link" href="#habilidades">Habilidades</a>
                     </li>
@@ -29,111 +28,119 @@
                     <li>
                         <a class="link" href="#contacto">Contacto</a>
                     </li>
-                </ol>
+                </ul>
             </nav>
-            
-        </div>
     </header>
     <section class="hero">
         <h1>
-            Hola! Me Llamo <strong> Fernando Azuaje </strong> <br> Soy Sesarrollador Web <br> Especializado En Tecnologias <br> De <strong> Javascript y Backend </strong>
+            Hola! Me Llamo <strong> Fernando Azuaje </strong> <br> Soy <strong>Desarrollador</strong> Web <br> Especializado <strong>En</strong> Tecnologias <br> De <strong> Javascript y Backend </strong>
         </h1>
           
-        <img src="public/hero.png" alt="imagen principal" width="500px"> 
+        <!-- <img src="public/hero.png" alt="imagen principal" width="500px">  -->
     </section>    
-    <section id="habilidades">
-        <h2>
-            Habilidades
-        </h2>
-        <div class="box-container">
-            <div class="box-title">
-                HTML
+    <section id="habilidades" class="habilities">
+        <div class="title">
+            <h2>
+                Habilidades
+            </h2>
+        </div>
+        <div class="habilities-container1">
+            <div class="box-container">
+                <div class="box-title">
+                    HTML
+                </div>
+                <div class="box-meter">                
+                     <div class="box-progress-html"></div> 
+                     <p>50%</p>                
+                </div>
             </div>
-            <div class="box-meter">                
-                 <div class="box-progress-html"></div> 
-                 <p>50%</p>                
+            <div class="box-container">            
+                <div class="box-title">
+                    CSS
+                </div>
+                <div class="box-meter">               
+                     <div class="box-progress-css"></div>    
+                     <p>50%</p>             
+                </div>
             </div>
         </div>
-        <div class="box-container">            
-            <div class="box-title">
-                CSS
+        <div class="habilities-container2">
+            <div class="box-container">
+                <div class="box-title">
+                    JS / NODE.JS
+                </div>
+                <div class="box-meter">               
+                     <div class="box-progress-js"></div>   
+                     <p>70%</p>              
+                </div>
             </div>
-            <div class="box-meter">               
-                 <div class="box-progress-css"></div>    
-                 <p>40%</p>             
-            </div>
-        </div>
-        <div class="box-container">
-            <div class="box-title">
-                JS / NODE.JS
-            </div>
-            <div class="box-meter">               
-                 <div class="box-progress-js"></div>   
-                 <p>70%</p>              
-            </div>
-        </div>
-        <div class="box-container">
-            <div class="box-title">
-                SQL / NoSQL
-            </div>
-            <div class="box-meter">               
-                 <div class="box-progress-sql"></div>  
-                 <p>70%</p>               
+            <div class="box-container">
+                <div class="box-title">
+                    SQL / NoSQL
+                </div>
+                <div class="box-meter">               
+                     <div class="box-progress-sql"></div>  
+                     <p>70%</p>               
+                </div>
             </div>
         </div>
 
     </section>
 
 
-    <section id="formacion">
-        <h2>
-            Formacion
-        </h2>
-        <div class="box-universidad">            
-            <h3>
-                Universitaria
-            </h3>
-            <p>
-                Ingenieria En Sistemas - 8vo Trimestre
-            </p>
+    <section id="formacion" >
+        <div class="title">
+            <h2>
+                Formacion
+            </h2>    
         </div>
-        
-        <div class="box-platzi">
+        <div class="uni-container">
+            <div class="box-universidad">            
+                <h3>
+                    Universitaria
+                </h3>
+                <p>
+                    Ingenieria En Sistemas - 8vo Trimestre (actualmente)
+                </p>
+            </div>
+        </div>
+        <div class="online">
             <h3>
                 Online
-            </h3>
-            <div class="carreras-platzi">
-                <div>
-                    <img src="public/backend-js.webp" alt="Diploma de carrera de Platzi">
-                    <p>Carrera De Backend Con Javascript - Platzi</p>
-                </div>
-                <div>
-                    <img src="public/bases-datos.webp" alt="Diploma de carrera de Platzi">
-                    <p>Carrera De Bases De Datos - Platzi</p>
-                </div>
+            </h3>            
+            <div class="box-platzi">            
+                    <div class="carrera-js">
+                        <img src="public/backend-js.webp" alt="Diploma de carrera de Platzi">
+                        <p>Carrera De Backend Con Javascript - Platzi</p>
+                    </div>
+                    <div class="carrera-sql">
+                        <img src="public/bases-datos.webp" alt="Diploma de carrera de Platzi">
+                        <p>Carrera De Bases De Datos - Platzi</p>
+                    </div>
             </div>
-            <div class="cursos-platzi">
-                <h3>Cursos</h3>
-                <p>Estos han sido algunos de los cursos que he realizado</p>
-                <img src="public/diploma-basico-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-bd.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-express-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-fundamentos-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-graphql.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-jquery-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-mongodb.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-node-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
-                <img src="public/diploma-sql-mysql.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            </div>
+
         </div>
-
-
         
-
+        <div class="cursos-platzi">
+            <h3>Cursos</h3>
+            <p>Estos han sido algunos de los cursos que he realizado</p>
+            <img src="public/diploma-basico-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-bd.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-express-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-fundamentos-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-graphql.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-jquery-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-mongodb.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-node-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <img src="public/diploma-sql-mysql.jpg" alt="Diploma de curso de Platzi" class="diplo">
+        </div>
     </section>
     <section id="contacto" class="contac">
-        <h2>Trabajemos Juntos</h2>
+        <div class="title">
+            <h2>Trabajemos Juntos</h2>
+
+        </div>
         <form action="">
             <input type="text" placeholder="Email">
             <input type="text" placeholder="Nombre">
@@ -141,7 +148,13 @@
             <input type="submit" value="Enviar">
         </form>
     </section>
-    <footer class="footer">Seccion footer</footer>
+    <footer class="footer">
+        <div class="">
+            <p>
+                Desarrolado por Fernando Azuaje
+            </p>
+        </div>
+    </footer>
 
     
 </body>
