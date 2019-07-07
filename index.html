@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Code+Pro&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="form-contac.css">
     <link rel="shortcut icon" href="public/FA.png" type="image/x-icon">
     <title>Fernando Azuaje</title>
     
@@ -13,7 +14,7 @@
 <body>
     <header class="header">
             <figure class="logo">
-                <img src="public/Logo.png" alt="Logo de Fernando Azuaje" width="250px">
+                <img src="public/Logo2.png" alt="Logo de Fernando Azuaje" width="250" >
             </figure>
             <nav class="menu">
                 <ul>
@@ -22,7 +23,7 @@
                     </li>
                     
                     <li>
-                        <a class="link" href="#formacion">Formacion</a>
+                        <a class="link" href="#formacion" style="color: #FFB92C;">Formacion</a>
                     </li>
     
                     <li>
@@ -122,40 +123,46 @@
         </div>
         
         <div class="cursos-platzi">
-            <h3>Cursos</h3>
-            <p>Estos han sido algunos de los cursos que he realizado</p>
-            <img src="public/diploma-basico-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-bd.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-express-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-fundamentos-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-graphql.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-jquery-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-mongodb.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-node-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
-            <img src="public/diploma-sql-mysql.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            <p>Estos han sido algunos de los cursos que he realizado:</p>
+            <div class="cursos-container1">
+                <img src="public/diploma-basico-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-bd.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-express-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-fundamentos-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-graphql.jpg" alt="Diploma de curso de Platzi" class="diplo">
+            </div>
+            <div class="cursos-container2">
+                <img src="public/diploma-jquery-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-mongodb.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-node-js.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-nodejs.jpg" alt="Diploma de curso de Platzi" class="diplo">
+                <img src="public/diploma-sql-mysql.jpg" alt="Diploma de curso de Platzi" class="diplo">
+
+            </div>
+            <p class="enlace-platzi">Para mas informacion visite mi perfil en: <a href="https://platzi.com/@azu.ref/" target="_blank"><img src="./public/platzi.webp" alt="" width="70px"></a></p>
         </div>
     </section>
-    <section id="contacto" class="contac">
-        <div class="title">
+    <section id="contacto" class="contact">
+        <div class="title form-title">
             <h2>Trabajemos Juntos</h2>
 
         </div>
-        <form action="">
-            <input type="text" placeholder="Email">
+        <form action="" class="form-contact">
+            <input type="email" placeholder="Email" id="correo">
             <input type="text" placeholder="Nombre">
             <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
             <input type="submit" value="Enviar">
         </form>
+        
     </section>
     <footer class="footer">
         <div class="">
             <p>
-                Desarrolado por Fernando Azuaje
+                Desarrollado por Fernando Azuaje
             </p>
         </div>
     </footer>
 
-    
+    <script src="./index.js"></script>
 </body>
 </html>

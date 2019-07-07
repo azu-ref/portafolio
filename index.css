@@ -12,7 +12,7 @@ h1{
 
 h2,
 h3{
-    color: #a6a3a3;
+    color: #FFB92C;
     font-family: 'Source Code Pro', monospace;
     font-style: italic;
     font-weight: 100;
@@ -20,6 +20,8 @@ h3{
 
 h3{
     font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #000000;
 }
 
 h1{
@@ -35,7 +37,8 @@ h1{
 } */
 
 h1 strong{
-    color: rgb(95, 95, 247);
+    /* color: rgb(95, 95, 247); */
+    color: #FFB92C;
 }
 
 .header{
@@ -128,7 +131,7 @@ h1 strong{
     height: 200px;
     margin: 20px 20px;
     border: 1px solid gray;
-    background: white;
+    background-color: #202020;
     box-shadow: 2px 2px 2px 2px rgba(189, 189, 189, 0.466);
     /* border-radius: 10px; */
     position: relative;
@@ -142,7 +145,8 @@ h1 strong{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: white;
+    background-color: #202020;
+    color: #FFB92C;
     /* border-radius: 10px; */
     text-align: center;
     display: flex;
@@ -219,8 +223,9 @@ section h3{
     flex-direction: column;
     align-items: center;    
     width: 100%;
-    /* background: white; */
+    background:  #FFB92C;
     font-weight: bold;
+    font-size: 20px;
     margin-bottom: 0px;
 }
 
@@ -274,9 +279,47 @@ section h3{
     font-weight: bold;
 }
 
-.diplo{
-    width: 19%;
+.cursos-platzi p{
+    margin-top: 30px;
+    /* font-size: 20px; */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
+
+.cursos-container1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.cursos-container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.diplo{
+    width: 255px;
+}
+
+.enlace-platzi{
+    background: #263C4A;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.enlace-platzi img{
+    vertical-align: middle;
+}
+
+.contact{
+    background: #FFB92C;
+}
+
 
 .footer{
     height: 30px;
@@ -300,3 +343,4 @@ section h3{
         opacity: 0;
     }
 }
+
