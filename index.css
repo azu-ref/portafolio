@@ -6,18 +6,20 @@ body{
     background-color: #f3f6f6;
 }
 
-h1,
-h2,
-h3{
+h1{
     font-family: 'Fjalla One', sans-serif;
 }
 
-h2{
+h2,
+h3{
     color: #a6a3a3;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    font-weight: 100;
 }
 
 h3{
-    color: #a6a3a3;;
+    font-size: 25px;
 }
 
 h1{
@@ -27,6 +29,10 @@ h1{
     color: #a6a3a3;
     margin: 0 80px;
 }
+
+/* #formacion{
+    background: #202020;
+} */
 
 h1 strong{
     color: rgb(95, 95, 247);
@@ -90,7 +96,8 @@ h1 strong{
     background: #202020;
     /* box-shadow: 2px 2px 14px black; */
     height: 70px;
-    margin: 40px 0px;
+    margin-top: 40px;
+    margin-bottom: 0;
     display: flex;
     align-items: center;
 }
@@ -212,7 +219,7 @@ section h3{
     flex-direction: column;
     align-items: center;    
     width: 100%;
-    background: white;
+    /* background: white; */
     font-weight: bold;
     margin-bottom: 0px;
 }
@@ -245,6 +252,7 @@ section h3{
     /* background: #fcfa88fa; */
     color: #a6a3a3;
     background: #202020;
+    box-shadow: 2px 2px 14px black;
     width: 500px;
     height: 220px;
     margin-right: 20px;
@@ -259,6 +267,7 @@ section h3{
     background: #fcfa88fa; */
     color: #a6a3a3;
     background: #202020;
+    box-shadow: 2px 2px 14px black;
     height: 220px;
     width: 500px;
     margin-left: 20px;
