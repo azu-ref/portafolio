@@ -1,0 +1,23 @@
+/* .hero{    
+    display: flex;
+    align-items: center
+}
+
+.hero h1{
+    z-index: 2;
+    position: absolute;
+}
+
+.bg-hero{
+    height: 300px;
+    width: 100%;
+    background-image: url('./public/hero.png');
+    background-color: #202020;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    box-shadow: 2px 2px 14px black;
+    background-size: 700px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+} */
