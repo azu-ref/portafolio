@@ -24,6 +24,11 @@
         padding-top: 100px;
     }
 
+    .title h2{
+        margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
     .header{
         position: fixed;
     }
@@ -73,9 +78,26 @@
 }
 
 @media screen and ( max-width: 650px){
+    h1{
+        font-size: 1.5em;
+        margin: 0;
+        
+    }
+
+    .icon-menu{
+        display: flex;
+        line-height: 50px;
+    }
+
     .header{
         display: block;
-        height: auto;
+        height: 100px;
+        /* padding: 10.5px 0; */
+    }
+
+    .header ul li{
+        height: initial;
+        padding: 10px;
     }
     .logo{
         display: flex;
@@ -84,17 +106,83 @@
     .menu{
         position: fixed;
         display: flex;
-        justify-content: center;
+        top: 100px;
+        z-index: 5;
+        left: -100vw;
+        /* justify-content: center; */
+        background-color: #202020ee;
+        height: 100vh;
+        width: 50vw;
+        transition: .3s;
+    }
+
+    .menu.active{
+        left: 0;
     }
 
     .menu ul{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-size: 2em;
+    }
+
+    .hero{
+        justify-content: center;
+    }
+
+    .form-contact input,
+    .form-contact textarea{
+        width: 300px;
+    }
+
+    .form-contact input{
+        height: 40px;
+    }
+
+    .form-contact textarea{
+        height: 180px;
+    }
+
+    .footer{
+        font-size: .8em;
     }
 
 }
 
 @media screen and ( max-width: 480px){
+    h1{
+        font-size: 1.5em;
+    }
 
+    .header figure img{
+        width: 200px;
+    }
+
+    .menu ul{
+        font-size: 100%;
+    }
+    .enlace-platzi{
+        height: 50px;
+        padding-top:5px;
+    }
+
+    .carrera-js{
+        height: 180px;
+    }
+
+    .carrera-sql{
+        height: 180px;
+    }
+
+    .carrera-js img{
+        width: 80px;
+    }
+
+    .carrera-sql img{
+        width: 80px;
+    }
 }
 
 @media screen and ( max-width: 320px){
