@@ -1,0 +1,102 @@
+@media screen and ( max-width: 1024px){
+    .bg-hero{
+        width: 100%;
+        filter: blur(1.5px);
+        -webkit-filter: blur(1.5px);
+        box-shadow: none;
+        background-size: 100% 300px;
+    }
+
+    .carrera-js{
+        margin: 10px;
+        font-size: .8em;
+    }
+
+    .carrera-sql{
+        margin: 10px;
+        font-size: .8em;
+    }
+    
+}
+
+@media screen and ( max-width: 768px){
+    body{
+        padding-top: 100px;
+    }
+
+    .header{
+        position: fixed;
+    }
+
+    .title{
+        justify-content: center;
+    }
+
+    .box-universidad p{
+        font-size: .8em;
+        text-align: center;
+    }
+
+    .carrera-js{
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .carrera-sql{
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .cursos-container{
+        display: flex;
+        justify-content: center;
+        width: inherit
+    }
+    .cursos-container1{
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    
+
+    .cursos-container2{
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .diplo{
+        width: 100%;
+    }
+
+}
+
+@media screen and ( max-width: 650px){
+    .header{
+        display: block;
+        height: auto;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+}
+
+@media screen and ( max-width: 480px){
+
+}
+
+@media screen and ( max-width: 320px){
+
+}
