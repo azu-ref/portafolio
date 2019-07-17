@@ -145,8 +145,24 @@
         height: 180px;
     }
 
+    .footer p{
+        margin: 5px;
+    }
+
+    .designed-by{
+        position: initial;
+        margin-top: 0px;
+    }
+
+    .redes{
+        position: initial;
+        margin: 5px 0px;
+    }
+
     .footer{
+        height: auto;
         font-size: .8em;
+        flex-direction: column;
     }
 
 }
@@ -186,5 +202,9 @@
 }
 
 @media screen and ( max-width: 320px){
-
+    h1{
+        font-size: 1.2em;
+        margin-left: .7em;
+        margin-right: .5em;
+    }
 }

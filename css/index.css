@@ -11,13 +11,17 @@ h1{
     font-family: 'Fjalla One', sans-serif;
 }
 
-h2,
-h3{
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    color: #FFB92C;
+    font-style: italic;
+}
+/* h3{
     color: #FFB92C;
     font-family: 'Source Code Pro', monospace;
     font-style: italic;
     font-weight: 100;
-}
+} */
 
 h3{
     font-size: 25px;
@@ -169,7 +173,8 @@ h1 strong{
     margin: 20px 20px;
     border: 1px solid gray;
     background-color: #202020;
-    box-shadow: 2px 2px 2px 2px rgba(189, 189, 189, 0.466);
+    box-shadow: 2px 2px 14px black;
+    /* box-shadow: 2px 2px 2px 2px rgba(189, 189, 189, 0.466); */
     /* border-radius: 10px; */
     position: relative;
     z-index: 1;
@@ -227,8 +232,6 @@ h1 strong{
     border-radius: 10px;
     margin-left: 3px;
     background: -webkit-linear-gradient(0deg, yellow 30%, rgb(72, 255, 0) 70%);
-    
-
 }
 .box-progress-sql {
     width: 70%;   
@@ -254,6 +257,10 @@ section h3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.in-curse{
+    margin: auto;
 }
 
 .box-universidad{
@@ -368,20 +375,50 @@ section h3{
 
 
 .footer{
-    height: 30px;
+    height: 80px;
     background: #202020;
+    box-shadow: 2px 2px 14px black;
     color: #a6a6a6;
-    font-size: 10px;
+    font-size: 1.2em;
     display: flex;
+    justify-content: center;
     align-items: center;
+    color: #FFB92C;
 }
 
 .footer p{
-    margin: 0;
-    
+    font-family: 'Fjalla One', sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+.designed-by{
+    position: absolute;
+    border-bottom: 2px solid #FFB92C;
+    left: 10px;
+}
+
+.redes{
+    position: absolute;
+    right: 10px;
+}
+
+.redes a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #FFB92C;
 }
 
 @keyframes aparecer{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes aparecer{
     0%{
         opacity: 1;
     }
