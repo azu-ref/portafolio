@@ -136,6 +136,11 @@
         font-size: 1.3em;
     }
 
+    .contact{
+        height: 500px;
+        background-image: url(../public/background-form3-r.jpg); 
+    }
+
     .form-contact input,
     .form-contact textarea{
         width: 300px;

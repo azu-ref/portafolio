@@ -40,3 +40,13 @@ function mostrarMenu(){
 
     }
 }
+
+const boxTitle = document.querySelectorAll('.box-title');
+boxTitle.forEach(e => {
+    e.addEventListener('mouseover', () => {
+        e.classList.add('hover')
+    })
+    e.addEventListener('mouseout', () => {
+        e.classList.remove('hover')
+    })
+})

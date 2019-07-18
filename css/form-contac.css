@@ -1,20 +1,21 @@
 .form-contact{
     display: flex;
+    margin-top: 70px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .form-contact input,
 .form-contact textarea{
     margin: 0px;
     width : 500px;
-    border: 1px solid #202020;
-    background: transparent;
+    border: 3px solid #202020;
+    background: #20202048;
     padding-left: 10px;
     font-family: 'Source Code Pro', monospace;
     font-size: 17px;
-    color: #202020;
+    color: #ffb92c;
     /* color: #a6a3a3; */
   -webkit-box-sizing: border-box; 
      -moz-box-sizing: border-box; 
@@ -39,7 +40,7 @@
 
 .form-contact input[type="submit"]{
    margin-bottom: 30px;
-   border-bottom: 1px solid #202020;
+   border-bottom: 3px solid #202020;
 }
 
 /* .form-contact textarea{
@@ -48,11 +49,11 @@
 } */
 
 input:hover {
-    background: #202020;
-    color: #e2dedb;
+    background: #ffb92c59 ;
+    color: #202020;
   }
 
 textarea:hover {
-    background: #202020;
-    color: #e2dedb;
+    background: #ffb92c59;
+    color: #202020;
   }
