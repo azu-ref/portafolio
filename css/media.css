@@ -132,6 +132,10 @@
         justify-content: center;
     }
 
+    .description p{
+        font-size: 1.3em;
+    }
+
     .form-contact input,
     .form-contact textarea{
         width: 300px;
@@ -179,6 +183,12 @@
     .menu ul{
         font-size: 100%;
     }
+
+    .description p{
+        font-size: 1em;
+    }
+
+
     .enlace-platzi{
         height: 50px;
         padding-top:5px;

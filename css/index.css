@@ -250,6 +250,27 @@ h1 strong{
     -webkit-animation-duration: 1s;
 }
 
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #202020;
+}
+
+.description p{
+    font-family: 'Fjalla One', sans-serif;
+    background: #202020;
+    width: 640px;
+    height: 250px;
+    padding: 15px;
+    color: #FFB92C;
+    font-size: 25px;
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+
 .uni-container{
     display: flex;
     justify-content: center;
