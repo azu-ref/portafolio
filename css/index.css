@@ -246,6 +246,8 @@ h1 strong{
     opacity: 0;
     animation: aparecer;
     animation-duration: 1s;
+    -webkit-animation-name: aparecer;
+    -webkit-animation-duration: 1s;
 }
 
 .uni-container{

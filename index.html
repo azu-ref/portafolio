@@ -100,7 +100,7 @@
     <section id="formacion" >
         <div class="title">
             <h2>
-                Formacion
+                Formación
             </h2>    
         </div>
         <div class="uni-container">
@@ -112,7 +112,7 @@
                     En curso:
                 </p>
                 <p>
-                    Ingenieria En Sistemas - 6to trimestre de 12 
+                    Ingeniería En Sistemas - 6to trimestre de 12 
                 </p>
             </div>
         </div>
@@ -152,7 +152,7 @@
                     <img src="public/diploma-sql-mysql.jpg" alt="Diploma de curso de Platzi" class="diplo">    
                 </div>
             </div>
-            <p class="enlace-platzi">Para mas informacion visite mi perfil en:<a href="https://platzi.com/@azu.ref/" target="_blank"><img src="./public/platzi.png" alt="" width="70px"></a></p>
+            <p class="enlace-platzi">Para mas información visite mi perfil en:<a href="https://platzi.com/@azu.ref/" target="_blank"><img src="./public/platzi.png" alt="" width="70px"></a></p>
         </div>
     </section>
     <section id="contacto" class="contact">
@@ -160,10 +160,11 @@
             <h2>Trabajemos Juntos</h2>
 
         </div>
-        <form action="" class="form-contact">
-            <input type="email" placeholder="Email" id="correo">
-            <input type="text" placeholder="Nombre">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <form id="contactform" method="POST" class="form-contact">
+            <input type="email" name="_replyto" placeholder="Email" id="correo">
+            <input type="text" id="nombre" name="name" placeholder="Nombre">
+            <textarea name="message" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="text" name="_gotcha" style="display:none">
             <input type="submit" value="Enviar">
         </form>
         
@@ -191,5 +192,9 @@
     </footer>
 
     <script src="./index.js"></script>
+    <script>
+        var contactform =  document.getElementById('contactform');
+        contactform.setAttribute('action', 'https://formspree.io/' + 'azuref17' + '@' + 'gmail' + '.' + 'com');
+    </script>
 </body>
 </html>
